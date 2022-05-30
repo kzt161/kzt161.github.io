@@ -1,0 +1,346 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face{
+    font-family: A;
+    src: url(../Lobster/Lobster-Regular.ttf);
+}
+
+.logo{
+    width: 100px;
+    height: 70px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.brandname{
+    position: relative;
+    top: -50px;
+    left: 90px;
+    font-family: A;
+    font-size: 23px;
+}
+.luffy{
+    display: inline-block;
+}
+.zoro ul{
+    float: right;
+}
+.zoro ul li{
+    display: inline-block;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+.zoro ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+.zoro ul li a:hover{
+    color: rgb(223, 42, 183);
+    letter-spacing: 5px;
+    transition-duration: 1s;
+}
+.chopper{
+    text-align: center;
+    position: relative;
+    top: -15px;
+    background-color: black;
+    color: rgb(147, 201, 249);
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 50%;
+}
+.zoro{
+    height: 90px;
+}
+.sanji{
+    width: 100%;
+}
+.nami{
+    position: absolute;
+    top: 300px;
+    left: 150px;
+}
+
+.robin{
+    font-family: A;
+    font-weight: unset;
+    margin-bottom: 15px;
+}
+.franky{
+    border: 1px solid rgb(4, 76, 199);
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin-top: 15px;
+    color: rgb(4, 76, 199);
+}
+.franky:hover{
+    background-color: rgb(4, 76, 199);
+    color: white;
+    cursor: pointer;
+}
+.brook{
+    text-align: center;
+    margin-top: 50px;
+}
+.divided{
+    max-width: 100px;
+    margin: auto;
+    border: 1px solid blue;
+    margin-bottom: 50px;
+}
+.jimbei{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 50px;
+    row-gap: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
+.jimbei p{
+    text-align: center;
+    padding-top: -1000px;
+}
+.button1:hover{
+    background-color: rgb(4, 76, 199);
+    color: white;
+    cursor: pointer;
+}
+.button1{
+    border: 0px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #e2eaec;
+}
+img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px gray(0,0,0,18);
+}
+.price{
+    font-size: 15px;
+    color: red;
+    text-decoration: line-through black;
+}
+.about{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-image: url(../Images/background.jpg);
+    color: azure;
+    text-align: center;
+    margin-top: 70px;
+}
+.about div{
+    padding: 60px;
+}
+.line{
+    width: 50px;
+    margin: auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.packaging{
+    margin-top: 70px;
+    margin-left: 80px;
+}
+.packaging img{
+    border-radius: 5px;
+    width: 40%;
+    float: left;
+}
+.packaging div{
+    position: relative;
+    left: 40px;
+    width: 90%;
+}
+.header_packaging{
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+.top_header_packaging{
+    text-transform: uppercase;
+}
+.fa-circle-arrow-right{
+    display: inline-block;
+    padding-right: 20px;
+}
+.clear{
+    clear: both;
+}
+.footer{
+    display: inline-block;
+    top: -45px;
+    left: 70px;
+    padding: 20px;
+    font-size: large;
+    font-weight: 400;
+}
+.support{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 50px;
+    background-color: #e2eaec;
+    padding: 30px;
+    padding-left: 150px;
+}
+.foot{
+    padding: 50px;
+    width: 450px;
+    margin: auto;
+}
+.foot a{
+    margin: 0px 20px;
+    color: white;
+    text-decoration: none;
+}
+.footer_bg{
+    background-color: rgb(56, 53, 53);
+    padding: 30px;
+}
+.design{
+    text-align: center;
+    color: white;
+    padding: 20px 0px;
+}
+.icon{
+    text-align: center;
+}
+.truck{
+    width: 25%;
+    height: 25%;
+    float: right;
+}
+.clear2{
+    clear: both;
+}
+.about_us{
+    padding: 40px;
+}
+.list{
+    list-style-type: circle;
+}
+.email p{
+    float: right;
+    margin-right: 1000px;
+    font-size: 25px;
+}
+.contact{
+    margin-left: 50px;
+}
+.header1{
+    font-size: 40px;
+    font-weight: 300;
+    margin-left: 70px;
+}
+.help{
+    font-size: 30px;
+}
+.body{
+    background-color: #e2eaec;
+    
+}
+.floral-header{
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+}
+.occasion{
+    font-size: 25px;
+    font-weight: 200;
+}
+.filter{
+    font-size: 20px;
+    font-weight: 150px;
+}
+.filter2{
+    font-size: 20px;
+    font-weight: 150px;
+}
+.genre{
+    margin-left: 50px;
+}
+.genre1{
+    margin-left: 50px;
+}
+.line{
+    margin-left: 50px;
+    margin-right: 65%;
+    width: 230px;
+    height: 3px;
+    background-color: black;
+}
+.filter1{
+    font-size: 20px;
+    font-weight: 150px;
+    /* margin-left: 50px; */
+    padding: 5px;
+    /* text-decoration: none;
+    color: black; */
+}
+.text1{
+    text-decoration: none;
+    color: black;
+}
+.flower3{
+    margin-left: 50px;
+}
+.shop2{
+    float: left;
+    width: 20%;
+    padding: 20px;
+}
+.clear3{
+    clear: both;
+}
+.line1{
+    margin-left: 50px;
+    width: 100px;
+    height: 2px;
+    background-color: black;
+}
+.date{
+    margin-left: 50px;
+    color: burlywood;
+}
+.column{
+    
+    width: 20%;
+    padding: 20px;
+}
+.blog2{
+    margin-left: 50px;
+    color: rgb(128, 207, 239);
+}
+.line2{
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    height: 1px;
+    background-color: black;
+}
+.filter2:hover{
+    color: rgb(223, 42, 183);
+    letter-spacing: 2px;
+    transition-duration: 1s;
+}
+.filter1:hover{
+    color: rgb(223, 42, 183);
+    letter-spacing: 2px;
+    transition-duration: 1s;
+}
+.address_image{
+    width: 45%;
+    height: 45%;
+   
+}
+.image5{
+    margin-left: 500px;
+    /* margin-right: auto; */
+}
+.address1{
+    margin-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
