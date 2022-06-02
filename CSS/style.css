@@ -1,0 +1,225 @@
+h1{
+    color: brown;
+    color: #f00;
+    color: #ff0000;
+    color: rgb(255,0,0);
+    text-align: center;
+    text-transform: uppercase;
+}
+small{
+    color: yellow;
+    display: block;
+    text-indent: 50px;
+    line-height: 40px;
+    letter-spacing: 4px;
+    text-align: justify;
+}
+
+/* universal Selector */
+
+*{
+   /* color: aquamarine; */
+   margin: 0px;
+}
+
+/* tag selector */
+span{
+    color: #f00;
+}
+
+/* attribute selector */
+a[target="_blank"]{
+    color: #f00;
+}
+
+/* id selector */
+#id_selector{
+    color: #f00;
+    word-spacing: 40px;
+}
+#one{
+    color: blue;
+}
+
+/* class selector */
+.luffy{
+    color: steelblue;
+    line-height: 30px;
+    text-indent: 50px;
+    letter-spacing: 10px;
+}
+/* descendent selector */
+p a{
+    color: blue;
+}
+
+.desc a{
+    color: yellow;
+}
+
+/* child selector */
+.child > a{
+    color: violet;
+}
+
+/* pseudo seector */
+a:link{
+    color: teal;
+}
+a:hover{
+    color: springgreen;
+}
+a:active{
+    color: #ff00bf;
+}
+a:visited{
+    color: blue;
+}
+
+/* Target */
+:target{
+    color: rgb(0, 13, 255);
+    border: 1px solid black;
+    word-spacing: 2px;
+}
+.zoro{
+    border: 5px solid red;
+}
+.sanji{
+    border-left: 5px solid pink;
+    border-right: 5px solid orangered;
+}
+.nami{
+    border-style: dotted;
+}
+.chopper{
+    /*border-style: solid;*/
+    /*all four*/
+    /*border-style: solid dashed;*/
+    /*L,R & T,B*/
+    /* border-style: dashed solid dotted; */
+    /* T & L,R & B */
+     border-style: groove hidden solid dotted; 
+    /* T R B L */
+}
+
+.ussop{
+     border-width: 20px;
+     border-style: solid;
+}
+ 
+/* Magin */
+.law{
+    border: 1px solid black;
+    margin: 50px;
+}
+.smoker{
+    margin-left: 100px;
+    border: solid #ff00bf;
+}
+.robin{
+    padding: 100px;
+    border: 1px solid yellow;
+}
+.franky{
+    border: solid red;
+    padding-top: 100px; padding-bottom: 100px;
+}
+.inline{
+    border: 1px solid red;
+    display: inline-block;
+    width: 400px;
+}
+.block{
+    border: 3px solid greenyellow;
+    width: 400px;
+    display: inline-block;
+}
+/* float */
+.floatleft img{
+    width: 40%;
+    float: left;
+}
+.clear{
+    clear: both;
+}
+.floatright img{
+    width: 50%;
+    float: right;
+}
+
+/* grid */
+.jaggy div, .killer div, .ghost div,.yamato div,.momo div,.shinobu div{
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+.jaggy,.killer, .ghost,.yamato,.momo,.shinobu{
+    display: grid;
+    grid-template-columns: auto auto auto; 
+}
+.killer{
+    grid-column-gap: 40px;
+}
+.ghost{
+    row-gap: 40px;
+}
+.yamato{
+    grid-gap: 50px;
+}
+.columadd{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.rowadd{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+/*Position*/
+
+.relative_parents{
+    border: 1px solid red;
+    width: 1000px;
+    height: 500px;
+}
+.relative{
+    border: 1px solid blue;
+    width: 500px;
+    height: 200px;
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+
+.absolute_parent{
+    border: 1px solid rgb(41, 169, 224);
+    width: 1000px;
+    height: 500px;
+}
+.absolute{
+    border: 1px solid orangered;
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    top: 50px;
+    right: 500px;
+}
+.fixed{
+    position: fixed;
+    top: 100px;
+    left: 1000px;
+}
+
+/*font*/
+.op{
+    font-family: 'Koulen', cursive;
+}
+
+@font-face{
+    src: url(Smooch/Smooch-Regular.ttf);
+    font-family: a;
+}
+.offline{
+    font-family: a;
+}
